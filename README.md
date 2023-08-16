@@ -1,6 +1,6 @@
-# 3-in-1 Network Security Installation Script
+# 3-in-1 Server Security Tools Installation Script
 
-This script provides a convenient way to install and configure three essential network security tools: Fail2ban, Snort, and ClamAV.
+This script provides a convenient way to install and configure three essential server security tools: Fail2ban, Snort, and ClamAV.
 
 ## Usage
 
@@ -21,9 +21,7 @@ To install these security tools using the provided script, follow these steps:
 3. Run the script with administrative privileges (sudo):
 
     ```bash
-    sudo ./install_netsec.sh
+    ./install_netsec.sh
     ```
 
-4. The script will automatically download, install, and configure fail2ban, Snort, and ClamAV.
-
-5. After completion, you'll see a success message indicating that fail2ban, Snort, and ClamAV have been deployed successfully.
+The script will automatically download, install, and configure fail2ban, Snort, and ClamAV. After completion, you'll see a success message indicating that fail2ban, Snort, and ClamAV have been deployed successfully.
